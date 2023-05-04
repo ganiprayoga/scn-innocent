@@ -2,4 +2,6 @@
 	import '$lib/styles/app.scss';
 </script>
 
-<slot />
+<div class="w-full md:max-w-[600px] mx-auto">
+	<slot />
+</div>

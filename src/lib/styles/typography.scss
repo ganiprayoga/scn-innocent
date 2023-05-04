@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 // GENERAL FONT
 html,
 body {
   @apply text-black;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 17px;
 }
 
 a {
-  @apply text-black font-semibold underline underline-offset-2 decoration-secondary decoration-2;
+  @apply text-black font-semibold;
 
   &:hover {
     @apply text-primary;
@@ -78,11 +78,10 @@ a {
 
 .article {
   .article-content {
-
     p,
     li {
       @apply text-[18px] leading-[28px] md:text-[20px] md:leading-[32px];
-      font-family: 'Source Serif Pro', serif;
+      font-family: "Source Serif Pro", serif;
     }
 
     h2 {
@@ -99,7 +98,7 @@ a {
 
 .c-toc li {
   &.toc-h3 {
-    @apply pl-4
+    @apply pl-4;
   }
 }
 
@@ -125,7 +124,5 @@ ul.list-custom {
       transition: background-size 0.3s;
       -webkit-transition: background-size 0.3s;
     }
-
-
   }
 }
