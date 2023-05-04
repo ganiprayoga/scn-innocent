@@ -1,0 +1,44 @@
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ffdd00 #aabbcc;
+}
+
+*::-webkit-scrollbar {
+  @apply w-2;
+}
+
+*::-webkit-scrollbar-track {
+  @apply bg-black-40 rounded-full;
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-full border-2 border-solid border-primary;
+}
+
+.article {
+  .article-content {
+    .row {
+      @apply flex flex-col md:flex-row gap-2;
+    }
+
+    .col- {
+      @apply flex flex-col;
+
+      &1\/4 {
+        @apply w-full md:w-1/4;
+      }
+
+      &1\/2 {
+        @apply w-full md:w-1/2;
+      }
+    }
+  }
+}
+
+kbd {
+  @apply border border-primary font-bold px-1 rounded-md;
+}
+
+blockquote {
+  @apply border-secondary border-l-8 p-4 text-black-80 mt-2;
+}

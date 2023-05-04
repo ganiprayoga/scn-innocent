@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// GENERAL FONT
+html,
+body {
+  @apply text-black;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 17px;
+}
+
+a {
+  @apply text-black font-semibold underline underline-offset-2 decoration-secondary decoration-2;
+
+  &:hover {
+    @apply text-primary;
+  }
+}
+
+// TYPE SIZES
+.large-title {
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.title-1 {
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.title-2 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.title-3 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.headline {
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.body {
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.callout {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.subhead {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.footnote {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.caption-1 {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.caption-2 {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+// SECTION ARTICLE
+
+.article {
+  .article-content {
+
+    p,
+    li {
+      @apply text-[18px] leading-[28px] md:text-[20px] md:leading-[32px];
+      font-family: 'Source Serif Pro', serif;
+    }
+
+    h2 {
+      @apply title-1 font-semibold mt-8;
+    }
+
+    h3 {
+      @apply title-2 font-semibold mt-4;
+    }
+  }
+}
+
+// SECTION TABLE OF CONTENT
+
+.c-toc li {
+  &.toc-h3 {
+    @apply pl-4
+  }
+}
+
+ul.list-custom {
+  li {
+    @apply ml-8 flex flex-row items-center gap-2;
+
+    &:before {
+      content: "";
+      height: 0.8em;
+      width: 0.8em;
+      display: flex;
+      float: left;
+      margin-left: -1.5em;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+
+      // background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='-3 -1 16 16' preserveAspectRatio='xMidYMid meet'><path d='M5,12 C20,0 5,-2 5,3.5 C5,-2 -10,0 5,12 Z' fill='red' stroke='magenta' stroke-width='1'/></svg>");
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"><path fill="%236667AB" d="M.32 11.78C2.142 5.056 8.338-.322 13.804.014c6.196.336 11.662 7.395 9.84 14.79C20 28.92-2.96 25.895.32 11.778Z"/></svg>');
+      background-size: 90%;
+      background-position: center;
+      transition: background-size 0.3s;
+      -webkit-transition: background-size 0.3s;
+    }
+
+
+  }
+}
