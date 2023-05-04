@@ -10,5 +10,6 @@
 		<span class="title-3">Selamat datang di Interplay</span>
 		<h1 class="large-title">Smart City Nusantara</h1>
 	</div>
+	<span>-----</span>
 	<button class="bottom-0 bg-primary text-white w-full p-4 rounded-md">Next</button>
 </div>
