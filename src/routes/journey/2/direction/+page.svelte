@@ -11,18 +11,14 @@
 	</div>
 	<div class="flex flex-col bottom-0 gap-8 p-8 bg-white">
 		<div class="flex flex-col">
-			<span class="title-3 font-semibold">Selamat datang di Interplay</span>
-			<h1 class="title-1 font-bold">Smart City Nusantara</h1>
+			<span class="title-3 font-semibold text-center">Silakan menuju ke</span>
+			<h1 class="title-1 font-bold text-center">Smart TV No. 2</h1>
 		</div>
-		<p class="body">
-			Kami akan memandu anda untuk memahami konsep Smart City Nusantara dan mencoba pengalaman
-			mengelola kota cerdas.
-		</p>
 		<a
-			href="/about"
+			href="/journey/2/guide"
 			class="flex flex-row items-center justify-center gap-4 bg-primary text-white hover:text-white hover:bg-secondary w-full p-3 rounded-md"
 		>
-			Sekilas SCN <ArrowRight class="h-4 fill-white" />
+			Saya sudah di sini
 		</a>
 	</div>
 </div>
