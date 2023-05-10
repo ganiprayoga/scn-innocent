@@ -6,7 +6,10 @@ module.exports = {
       transparent: 'transparent',
       primary: '#9c0e0e',
       secondary: '#8B79B1',
-      tertiary: '#FFC300',
+      tertiary: {
+        DEFAULT: '#FFC300',
+        40: '#FDF1D6'
+      },
       black: {
         DEFAULT: '#2a2a2d',
         10: '#E9E9EB',

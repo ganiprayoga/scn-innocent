@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Illustration from '$lib/assets/WelcomeScreenImage.svg?component';
 	import SCNLogo from '$lib/assets/Smart City Nusantara - Primary.svg?component';
-	import ArrowRight from '$lib/icons/arrow-right.svg?component';
+	import ArrowRight from '$lib/icons/chevron-right.svg?component';
 </script>
 
 <div class="flex flex-col min-h-screen max-h-screen overflow-hidden justify-between">
@@ -23,7 +23,7 @@
 		</p>
 		<a
 			href="/about"
-			class="flex flex-row items-center justify-center gap-4 bg-primary text-white hover:text-white hover:bg-secondary w-full p-2 rounded-md"
+			class="btn bg-primary text-white hover:text-white hover:bg-secondary hover:gap-8 w-full"
 		>
 			Sekilas SCN <ArrowRight class="h-4 fill-white" />
 		</a>
