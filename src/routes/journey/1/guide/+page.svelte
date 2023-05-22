@@ -1,22 +1,31 @@
 <script lang="ts">
+	import { fly, scale } from 'svelte/transition';
+	import { quintOut } from 'svelte/easing';
+
 	import SCNLogo from '$lib/assets/Smart City Nusantara - Primary.svg?component';
-	import VisitorMap from '$lib/assets/alur-jelajah-scn.png';
+	import TVGuide from '$lib/assets/TV-Guide 1.svg?component';
 	import ArrowRight from '$lib/icons/arrow-right.svg?component';
 </script>
 
-<div class="flex flex-col min-h-screen gap-4 justify-between">
-	<div class="flex flex-col px-4 py-8 gap-8 items-center">
+<div
+	class="flex flex-col min-h-screen gap-4 justify-between"
+	in:fly={{ x: '100vw', duration: 309, delay: 309, easing: quintOut }}
+	out:fly={{ x: '-100vw', duration: 309, delay: 309, easing: quintOut }}
+>
+	<div class="flex flex-col px-4 py-8 gap-8 items-center text-center">
 		<div class="flex flex-col">
 			<span class="title-3 font-semibold text-center">Smart TV No. 1</span>
-			<h1 class="title-1 font-bold text-center">Konsep Smart City Nusantara</h1>
+			<h1 class="title-1 font-bold text-center text-primary">Konsep Smart City Nusantara</h1>
 		</div>
-		<div class="bg-black-10 h-32 w-full" />
+		<div class="TV w-full">
+			<TVGuide />
+		</div>
 		<p>Silakan menyaksikan tayangan mengenai konsep Smart City Nusantara.</p>
 	</div>
 	<div class="flex flex-col bottom-0 items-center gap-4 p-8 bg-white">
 		<span class="title-3 font-bold">Selesai di Smart TV No. 1</span>
 		<div class="flex flex-row w-full items-center gap-4">
-			<button class="flex flex-row shrink p-2 rounded-md justify-center">Pilih Use Case</button>
+			<button class="flex flex-row shrink p-2 rounded-md justify-center">Use Case</button>
 			<a
 				href="/journey/2/direction"
 				class="flex flex-row grow items-center justify-center gap-4 bg-primary text-white fill-white hover:text-white hover:bg-secondary w-full p-3 rounded-md"
@@ -26,3 +35,14 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	.TV {
+		filter: drop-shadow(0px 124.439px 408.161px rgba(0, 0, 0, 0.33))
+			drop-shadow(0px 51.9878px 170.52px rgba(0, 0, 0, 0.237222))
+			drop-shadow(0px 27.7951px 91.1681px rgba(0, 0, 0, 0.196715))
+			drop-shadow(0px 15.5817px 51.1081px rgba(0, 0, 0, 0.165))
+			drop-shadow(0px 8.27534px 27.1431px rgba(0, 0, 0, 0.133285))
+			drop-shadow(0px 3.44355px 11.2949px rgba(0, 0, 0, 0.092778));
+	}
+</style>
