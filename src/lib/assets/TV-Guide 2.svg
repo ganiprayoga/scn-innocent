@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 430 191">
+  <g class="TV-Guide 2" clip-path="url(#a)">
+    <g class="TV">
+      <g class="TV">
+        <g class="Light" filter="url(#b)">
+          <path fill="url(#c)" d="M238.877 151.177c0 8.291-10.698 15.012-23.895 15.012-13.196 0-23.894-6.721-23.894-15.012s10.698-15.012 23.894-15.012c13.197 0 23.895 6.721 23.895 15.012Z"/>
+        </g>
+        <path fill="#3C3737" stroke="#000" stroke-width="62.22" d="M101.11 31.093h227.745v100.821H101.11z" class="Frame"/>
+      </g>
+      <g class="Replace image here">
+        <g class="Frame 5">
+          <path fill="#CEC1C1" d="M76 157V6h278v151z" class="Rectangle 16"/>
+          <g class="Frame 4">
+            <rect width="89" height="71" x="117" y="18" fill="#FFE779" rx="10"/>
+            <g class="Frame 3">
+              <path stroke="#610C0C" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5" d="M129 39h12" class="Vector"/>
+              <path stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5" d="M129 46h26" class="Vector" opacity=".4"/>
+              <path stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5" d="M129 58.899s6.684-1.337 8.483 1.764c1.798 3.1 3.349 8.923 8.135 8.172 4.786-.75 8.45-15.973 13.154-15.834 4.706.139 3.047 10.109 8.168 10.248 5.121.139 4.21-5.57 7.624-5.41 4.14.193 2.597 12.02 7.995 12.16 5.399.14 6.28-15.623 14.441-15.347" class="Vector"/>
+            </g>
+          </g>
+          <g class="Frame 8">
+            <rect width="95" height="127" x="215" y="18" fill="#FDF1D6" rx="10"/>
+            <g class="Frame 7">
+              <g class="Frame 6">
+                <path fill="#fff" d="M278.103 75.202c12.052-11.374 13.264-29.414 2.715-40.295-10.552-10.881-28.873-10.482-40.923.891-12.049 11.373-13.264 29.414-2.712 40.295 10.551 10.882 28.873 10.482 40.92-.891Z" class="Vector"/>
+                <path fill="url(#d)" d="m260 56 19.3 18s4.39-4.826 5.7-8.275L260 56Z" class="Vector"/>
+                <path fill="#22272E" d="m261.705 23-2.688 30.721a2.91 2.91 0 0 0 .297 1.626c.254.5.647.915 1.132 1.192L286.12 71s15.245-43.031-24.415-48Z" class="Vector"/>
+              </g>
+              <path stroke="#610C0C" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" d="M230 100h32" class="Vector"/>
+              <path stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" d="M230 116h65" class="Vector" opacity=".4"/>
+              <path stroke="#610C0C" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" d="M230 132h31" class="Vector"/>
+            </g>
+          </g>
+          <path stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" d="M125 102h32" class="Vector"/>
+          <path stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" d="M125 118h65" class="Vector" opacity=".4"/>
+          <path stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" d="M125 134h31" class="Vector"/>
+        </g>
+      </g>
+      <g class="Group">
+        <g class="Group">
+          <g class="Group">
+            <path fill="#F8AB5D" d="M126.344 175.829c-17.317 16.792-38.831 20.091-46.627 8.546-6.897-10.195-.375-28.336 13.718-41.454 13.868-12.894 32.159-18.216 42.054-11.395 11.17 7.646 7.871 27.812-9.145 44.303Z" class="Vector"/>
+            <path fill="#FFE779" d="M123.87 173.281c-17.317 16.791-38.83 20.09-46.627 8.545-6.897-10.195-.375-28.336 13.718-41.454 13.868-12.894 32.159-18.216 42.054-11.395 11.245 7.722 7.872 27.887-9.145 44.304Z" class="Vector"/>
+            <path fill="#610C0C" d="M116.598 166.009c-10.419 9.97-23.463 12.444-28.71 5.772-4.798-6.147-.975-17.766 8.17-26.312 9.071-8.471 20.84-11.694 26.912-6.896 6.522 5.097 3.898 17.541-6.372 27.436Z" class="Vector"/>
+            <path fill="#F4C2C9" d="M109.927 159.337c-4.123 3.898-9.371 5.023-11.62 2.549-2.173-2.399-.75-7.272 3.149-10.945 3.898-3.673 8.921-4.872 11.319-2.698 2.474 2.174 1.275 7.196-2.848 11.094Z" class="Vector"/>
+          </g>
+        </g>
+        <g class="Group">
+          <g class="Group">
+            <path fill="#22272E" d="M83.315 134.15c-1.575 1.499-4.123 1.349-5.548-.225l-13.343-17.017c-.675-.899-.6-2.174.225-2.923a2.18 2.18 0 0 1 2.923 0l15.893 14.617c1.574 1.575 1.499 4.048-.15 5.548Z" class="Vector"/>
+            <g class="Group">
+              <path fill="#610C0C" d="m67.497 120.132-4.273.599c-1.199.15-1.649 1.649-.75 2.399 2.625 2.324 5.848 3.823 9.296 4.423l2.174.375c.225.075.45-.225.3-.45l-5.397-6.822c-.375-.375-.825-.599-1.35-.524Zm3.149-2.849.974-4.198c.225-1.125 1.724-1.499 2.474-.525a18.427 18.427 0 0 1 3.673 9.595l.15 2.174c0 .225-.3.375-.45.225l-6.371-5.847c-.45-.45-.6-.974-.45-1.424Z" class="Vector"/>
+            </g>
+          </g>
+          <path stroke="#22272E" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8" d="m82.715 133.475 4.273 4.573" class="Vector"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <defs>
+    <radialGradient id="c" cx="0" cy="0" r="1" class="c" gradientTransform="matrix(0 25.6789 -40.8722 0 214.982 136.165)" gradientUnits="userSpaceOnUse">
+      <stop offset=".091" stop-color="#B8ECF7"/>
+      <stop offset=".513" stop-color="#D1E6EC" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#20C8FD" stop-opacity=".01"/>
+    </radialGradient>
+    <linearGradient id="d" x1="271.877" x2="274.874" y1="55.957" y2="94.336" class="d" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset="1" stop-color="#94B9FF"/>
+    </linearGradient>
+    <clipPath id="a" class="a">
+      <path fill="#fff" d="M0 0h430v191H0z"/>
+    </clipPath>
+    <filter id="b" width="669.986" height="652.221" x="-120.01" y="-39.295" class="b" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="135.639"/>
+      <feGaussianBlur stdDeviation="155.549"/>
+      <feColorMatrix values="0 0 0 0 0.446285 0 0 0 0 0.825511 0 0 0 0 0.937049 0 0 0 1 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_439_1728"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow_439_1728" result="shape"/>
+    </filter>
+  </defs>
+</svg>

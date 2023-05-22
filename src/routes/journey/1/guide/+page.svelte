@@ -1,17 +1,10 @@
 <script lang="ts">
-	import { fly, scale } from 'svelte/transition';
-	import { quintOut } from 'svelte/easing';
-
 	import SCNLogo from '$lib/assets/Smart City Nusantara - Primary.svg?component';
 	import TVGuide from '$lib/assets/TV-Guide 1.svg?component';
 	import ArrowRight from '$lib/icons/arrow-right.svg?component';
 </script>
 
-<div
-	class="flex flex-col min-h-screen gap-4 justify-between"
-	in:fly={{ x: '100vw', duration: 309, delay: 309, easing: quintOut }}
-	out:fly={{ x: '-100vw', duration: 309, delay: 309, easing: quintOut }}
->
+<div class="flex flex-col min-h-screen gap-4 justify-between">
 	<div class="flex flex-col px-4 py-8 gap-8 items-center text-center">
 		<div class="flex flex-col">
 			<span class="title-3 font-semibold text-center">Smart TV No. 1</span>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" viewBox="0 0 430 198">
+  <g class="TV-Guide 3" clip-path="url(#a)">
+    <g class="TV">
+      <g class="TV">
+        <g class="Light" filter="url(#b)">
+          <path fill="url(#c)" d="M238.877 186.177c0 8.291-10.698 15.012-23.895 15.012-13.196 0-23.894-6.721-23.894-15.012s10.698-15.012 23.894-15.012c13.197 0 23.895 6.721 23.895 15.012Z"/>
+        </g>
+        <path fill="#3C3737" stroke="#000" stroke-width="62.22" d="M101.11 66.093h227.745v100.821H101.11z" class="Frame"/>
+      </g>
+      <g class="Replace image here" clip-path="url(#d)">
+        <g class="Frame 6">
+          <path fill="#CEC1C1" d="M76 191V40h278v151z" class="Rectangle 16"/>
+          <g class="Frame 4">
+            <rect width="89" height="109" x="116" y="61" fill="#FFE779" rx="10"/>
+            <g class="Frame 16">
+              <path stroke="#610C0C" stroke-linecap="round" stroke-miterlimit="10" stroke-width="8" d="M172 83.024v65M149 83v65" class="Vector"/>
+              <g class="Frame 14">
+                <circle cx="149" cy="98" r="10" fill="#610C0C" class="Ellipse 5"/>
+                <circle cx="149" cy="98" r="5" fill="#fff" class="Ellipse 6"/>
+              </g>
+              <g class="Frame 15">
+                <circle cx="172" cy="131" r="10" fill="#610C0C" class="Ellipse 5"/>
+                <circle cx="172" cy="131" r="5" fill="#fff" class="Ellipse 6"/>
+              </g>
+            </g>
+          </g>
+          <path fill="url(#e)" d="M223 67h97v97h-97z" class="street-light 1"/>
+        </g>
+      </g>
+      <g class="Group">
+        <path fill="#610C0C" d="M337.947 57.276a3.496 3.496 0 0 0-3.525-3.525 3.495 3.495 0 0 0-3.524 3.525 3.495 3.495 0 0 0 3.524 3.525 3.496 3.496 0 0 0 3.525-3.525Z" class="Vector"/>
+        <path fill="#FFE779" d="M354.95 19.022a20.658 20.658 0 0 1-5.391 15.447 23.023 23.023 0 0 0-6.117 15.654v3.628c0 1.97-1.658 3.629-3.628 3.629h-10.575c-1.969 0-3.628-1.659-3.628-3.629v-3.628c0-5.806-2.177-11.404-6.117-15.55-3.421-3.63-5.494-8.605-5.494-13.996C314 8.759 324.056-.78 335.978.05c10.056.622 18.246 8.812 18.972 18.972Z" class="Vector"/>
+        <path stroke="#22272E" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8" d="M325.507 50.123h17.832m-17.832 3.525h17.832" class="Vector"/>
+        <g class="Group">
+          <g class="Group">
+            <g class="Group">
+              <path stroke="#22272E" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8" d="M332.557 50.123V21.717c0-2.592-2.903-4.147-5.08-2.695-1.659 1.14-1.866 3.628-.311 5.08l1.244 1.14" class="Vector"/>
+            </g>
+            <g class="Group">
+              <path stroke="#22272E" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8" d="M336.288 50.123V21.717c0-2.592 2.903-4.147 5.08-2.695 1.659 1.14 1.866 3.628.311 5.08l-1.244 1.14" class="Vector"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <defs>
+    <clipPath id="a" class="a">
+      <path fill="#fff" d="M0 0h430v198H0z"/>
+    </clipPath>
+    <clipPath id="d" class="d">
+      <path fill="#fff" d="M0 0h278.659v151.688H0z" transform="translate(75.67 40.656)"/>
+    </clipPath>
+    <radialGradient id="c" cx="0" cy="0" r="1" class="c" gradientTransform="matrix(0 25.6789 -40.8722 0 214.982 171.165)" gradientUnits="userSpaceOnUse">
+      <stop offset=".091" stop-color="#B8ECF7"/>
+      <stop offset=".513" stop-color="#D1E6EC" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#20C8FD" stop-opacity=".01"/>
+    </radialGradient>
+    <pattern id="e" width="1" height="1" class="e" patternContentUnits="objectBoundingBox">
+      <use xlink:href="#f" transform="scale(.00195)"/>
+    </pattern>
+    <filter id="b" width="669.986" height="652.221" x="-120.01" y="-4.295" class="b" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="135.639"/>
+      <feGaussianBlur stdDeviation="155.549"/>
+      <feColorMatrix values="0 0 0 0 0.446285 0 0 0 0 0.825511 0 0 0 0 0.937049 0 0 0 1 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_439_1729"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow_439_1729" result="shape"/>
+    </filter>
+  </defs>
+</svg>
