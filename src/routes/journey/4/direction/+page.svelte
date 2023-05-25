@@ -26,7 +26,7 @@
 			<h1 class="title-1 font-bold text-center">Meja No. 1</h1>
 		</div>
 		<a
-			href="/journey/3/guide"
+			href="/journey/4/guide"
 			class="flex flex-row items-center justify-center gap-4 bg-primary text-white hover:text-white hover:bg-secondary w-full p-3 rounded-md"
 		>
 			Saya sudah di sini

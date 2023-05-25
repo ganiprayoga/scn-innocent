@@ -18,9 +18,6 @@
 			<TVGuide />
 		</div>
 		<p class="text-center">
-			<strong>Smart TV</strong><br />Penerapan IoT pada Smart City & Kawasan
-		</p>
-		<p class="text-center">
 			<strong>Tablet Android</strong><br />Mencoba pengendalian Smart PJU
 		</p>
 	</div>
@@ -40,11 +37,6 @@
 
 <style>
 	.TV {
-		filter: drop-shadow(0px 124.439px 408.161px rgba(0, 0, 0, 0.33))
-			drop-shadow(0px 51.9878px 170.52px rgba(0, 0, 0, 0.237222))
-			drop-shadow(0px 27.7951px 91.1681px rgba(0, 0, 0, 0.196715))
-			drop-shadow(0px 15.5817px 51.1081px rgba(0, 0, 0, 0.165))
-			drop-shadow(0px 8.27534px 27.1431px rgba(0, 0, 0, 0.133285))
-			drop-shadow(0px 3.44355px 11.2949px rgba(0, 0, 0, 0.092778));
+		filter: drop-shadow(0px 8px 128px rgba(0, 0, 0, 0.33));
 	}
 </style>
