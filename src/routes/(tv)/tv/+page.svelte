@@ -6,21 +6,41 @@
 	import SCNLogo from '$lib/assets/Smart City Nusantara - Primary.svg?component';
 	import ArrowRight from '$lib/icons/chevron-right.svg?component';
 
+	const anWhile = () => {
+		let tl = gsap.timeline({ repeat: -1, yoyo: true, defaults: { ease: 'Power2.easeInOut' } });
+		let tl2 = gsap.timeline({ repeat: -1, yoyo: true });
+
+		tl.to('.home-button svg', { x: 8 });
+		tl2.to('#background', { height: '75vh', duration: 6.18, ease: 'Power1.easeInOut' });
+	};
+
 	onMount(() => {
-		let tlIn = gsap.timeline();
+		let tlIn = gsap.timeline({ defaults: { duration: 1.6 }, onComplete: anWhile });
 
 		tlIn
 			.set('#background', { opacity: 0 })
-			.to('#background', { opacity: 1, height: '70vh', duration: 1.6, ease: 'Power2.easeOut' })
-			.from('.divider', { width: 0 });
-
-		tlIn.play();
+			// .set(['.home-button', '.home-button span'], { opacity: 0 })
+			.to('#background', { opacity: 1, height: '70vh', ease: 'Power2.easeOut' })
+			.from('.animate-from-top', { opacity: 0, ease: 'Power2.easeOut' }, '-=62%')
+			.from('.divider', { width: 0, ease: 'Power2.easeOut' }, '-=62%')
+			// .to('.home-button', { opacity: 1, duration: 0.6 }, 'animButton')
+			.from(
+				'.home-button',
+				{ opacity: 0, width: 0, paddingLeft: 0, paddingRight: 0, ease: 'Power2.easeOut' },
+				'animButton'
+			)
+			.from(
+				['.home-button span', '.home-button svg'],
+				{ opacity: 0, duration: 0.6, ease: 'Power2.easeOut' },
+				'animButton+=1.2'
+			);
+		// tlIn.play();
 	});
 </script>
 
 <div class="body-path w-full h-screen max-h-screen overflow-clip bg-black-5">
 	<div class="absolute flex flex-col items-center w-full min-h-screen max-h-screen z-10">
-		<div class="p-8 flex flex-col items-center">
+		<div class="animate-from-top p-8 flex flex-col items-center">
 			<SCNLogo class="h-32" />
 			<div class="flex flex-col p-4">
 				<h3 class="font-poppins text-[64px] text-black-80 font-semibold text-center">
@@ -32,8 +52,8 @@
 			</div>
 		</div>
 		<div class="divider bg-primary h-2 w-40 rounded-full" />
-		<div class="my-10">
-			<Button to="/tv/about" text="Start" icon={ArrowRight} />
+		<div class="animate-button my-10">
+			<Button text="Start" icon={ArrowRight} />
 		</div>
 	</div>
 	<div id="background" class="absolute bottom-0 max-w-screen overflow-hidden">
