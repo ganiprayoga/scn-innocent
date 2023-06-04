@@ -24,7 +24,9 @@
 	<div class="flex flex-col bottom-0 items-center gap-4 p-8 bg-white">
 		<span class="title-3 font-bold">Selesai di Smart TV No. 2</span>
 		<div class="flex flex-row w-full items-center gap-4">
-			<button class="flex flex-row shrink p-2 rounded-md justify-center">Pilih Use Case</button>
+			{#if false}
+				<button class="flex flex-row shrink p-2 rounded-md justify-center">Pilih Use Case</button>
+			{/if}
 			<a
 				href="/journey/3/direction"
 				class="flex flex-row grow items-center justify-center gap-4 bg-primary text-white fill-white hover:text-white hover:bg-secondary w-full p-3 rounded-md"
