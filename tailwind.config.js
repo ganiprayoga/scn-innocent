@@ -12,9 +12,11 @@ module.exports = {
       },
       black: {
         DEFAULT: '#2a2a2d',
+        5: '#FCFCFC',
         10: '#E9E9EB',
         40: '#A4A5AC',
         60: '#838487',
+        70: '#605756',
         80: '#5C5D5B'
       },
       white: '#FFFFFF'
