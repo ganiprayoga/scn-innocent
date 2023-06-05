@@ -23,12 +23,12 @@
 		tl.from(
 			'.menu-item',
 			{
-				clipPath: 'polygon(100% 0, 100% 0%, 100% 100%, 100% 100%)',
-				x: '-100%',
-				duration: 1.618,
+				opacity: 0,
+				x: '-10%',
+				duration: 0.618,
 				stagger: 0.2
 			},
-			'-=0.3'
+			0.3
 		);
 		tl.play();
 	});
@@ -41,7 +41,7 @@
 	</div>
 	<div class="flex flex-col gap-4">
 		{#each menus as menu}
-			<TvMenuItem class="menu-item clipped" title={menu.title} />
+			<TvMenuItem class="menu-item " title={menu.title} />
 		{/each}
 	</div>
 </div>
