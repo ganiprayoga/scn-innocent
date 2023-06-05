@@ -12,7 +12,7 @@ export const load = (({ url }) => {
 			email: url.searchParams.get('email')
 		};
 	}
-	console.log(user);
+	// console.log(user);
 	return {
 		user: user
 	};
