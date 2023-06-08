@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "uri": "pariwisata",
+    "title": "Sektor Pariwisata",
+    "subtitle": "Penerapan Smart City",
+    "description": "Digitalisasi untuk meningkatkan <strong>pengalaman wisatawan</strong>, keamanan, pemasaran, pengelolaan destinasi wisata secara efisien.",
+    "produkTelkom": [
+      {
+        "kategori": "eTicketing & Reservation",
+        "produk": [
+          "tamaska-loket",
+          "tamaska-loket-desa"
+        ]
+      }
+    ],
+    "decoration": {
+      "left": {
+        "top": 145,
+        "color": "#46A7C3"
+      },
+      "right": {
+        "top": 256,
+        "color": "#5BDEFF"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "uri": "desa",
+    "title": "Digitalisasi Desa",
+    "subtitle": "Penerapan Smart City",
+    "description": "Adopsi dari penerapan Smart City yang disesuaikan dengan kondisi, kebutuhan, dan permasalahan desa. Memanfaatkan digitalisasi untuk memperkuat kualitas hidup dan warga desa.",
+    "produkTelkom": [
+      {
+        "kategori": "eTicketing & Reservation",
+        "produk": [
+          "tamaska-loket",
+          "tamaska-loket-desa"
+        ]
+      }
+    ],
+    "decoration": {
+      "left": {
+        "top": 145,
+        "color": "#66C342"
+      },
+      "right": {
+        "top": 256,
+        "color": "#35B44B"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "uri": "pendidikan",
+    "title": "Sektor Pendidikan",
+    "subtitle": "Penerapan Smart City",
+    "description": "Digitalisasi untuk meningkatkan pembelajaran, manajemen sekolah, akses informasi, pengalaman belajar yang inovatif bagi peserta dan pendidik.",
+    "produkTelkom": [
+      {
+        "kategori": "eTicketing & Reservation",
+        "produk": [
+          "tamaska-loket",
+          "tamaska-loket-desa"
+        ]
+      }
+    ],
+    "decoration": {
+      "left": {
+        "top": 145,
+        "color": "#411A8C"
+      },
+      "right": {
+        "top": 256,
+        "color": "#411A8C"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "uri": "kesehatan",
+    "title": "Sektor Kesehatan",
+    "subtitle": "Penerapan Smart City",
+    "description": "Digitalisasi untuk meningkatkan <strong>pengalaman wisatawan</strong>, keamanan, pemasaran, pengelolaan destinasi wisata secara efisien.",
+    "produkTelkom": [
+      {
+        "kategori": "eTicketing & Reservation",
+        "produk": [
+          "tamaska-loket",
+          "tamaska-loket-desa"
+        ]
+      }
+    ],
+    "decoration": {
+      "left": {
+        "top": 145,
+        "color": "#1C88B4"
+      },
+      "right": {
+        "top": 256,
+        "color": "#396C8E"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "uri": "pad",
+    "title": "Pendapatan Asli Daerah",
+    "subtitle": "Smart City dalam meningkatkan",
+    "description": "Digitalisasi untuk meningkatkan <strong>pengalaman wisatawan</strong>, keamanan, pemasaran, pengelolaan destinasi wisata secara efisien.",
+    "produkTelkom": [
+      {
+        "kategori": "eTicketing & Reservation",
+        "produk": [
+          "tamaska-loket",
+          "tamaska-loket-desa"
+        ]
+      }
+    ],
+    "decoration": {
+      "left": {
+        "top": 145,
+        "color": "#F8CF3E"
+      },
+      "right": {
+        "top": 256,
+        "color": "#F8CF3E"
+      }
+    }
+  }
+]

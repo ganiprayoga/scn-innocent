@@ -1,8 +1,10 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { goto } from '$app/navigation';
 	import { gsap } from 'gsap';
 
 	import SCNLogo from '$lib/assets/Smart City Nusantara - Primary.svg?component';
+	import TvNavigation from '$lib/components/TVNavigation.svelte';
 	import TvMenuItem from '$lib/components/TVMenuItem.svelte';
 
 	let selectedMenu: any;
@@ -13,16 +15,25 @@
 		{ id: 3, title: 'Success Story', url: '/tv/success-story' }
 	];
 
-	const selectMenu = (id: number) => {
+	$: urlRedir = '';
+
+	const redirectTo = () => {
+		goto(urlRedir);
+	};
+
+	const selectMenu = (id: number, url: string) => {
 		selectedMenu = 'menu-' + id;
+		urlRedir = url;
 		const theElement = document.getElementById(selectedMenu);
 		theElement?.classList.remove('menu-item');
 		theElement?.classList.add('bg-primary');
 
 		let tl = gsap.timeline({
 			paused: true,
-			defaults: { duration: 0.3, ease: 'Power2.easeInOut' }
+			defaults: { duration: 0.3, ease: 'Power2.easeInOut' },
+			onComplete: redirectTo
 		});
+
 		tl.to('#menu-ornament', { height: 0 });
 		tl.to(
 			'#text-menu',
@@ -49,6 +60,7 @@
 			top: 0,
 			left: 0
 		});
+		tl.to('#scn-logo', { y: -100, opacity: 0 }, '+=0.3');
 
 		tl.play();
 	};
@@ -61,7 +73,9 @@
 
 		tl.from('#bg-circle-1', { x: '200%', opacity: 0 });
 		tl.from('#bg-circle-2', { x: '-200%', opacity: 0 }, '-=0.4');
+
 		tl.from('#scn-logo', { y: -100, opacity: 0 }, '<');
+
 		tl.from('#menu-ornament', { height: 0 });
 		tl.from(
 			'#text-menu',
@@ -91,6 +105,7 @@
 </div>
 
 <div
+	id="main-content"
 	class="overflow-hidden flex flex-row justify-center gap-48 items-center w-full h-screen bg-white bg-opacity-10 backdrop-blur-[460px]"
 >
 	<div class="flex flex-row gap-16 items-center">
@@ -101,7 +116,7 @@
 		{#each menus as menu}
 			<div
 				on:click={() => {
-					selectMenu(menu.id);
+					selectMenu(menu.id, menu.url);
 				}}
 				on:keydown={() => {}}
 			>

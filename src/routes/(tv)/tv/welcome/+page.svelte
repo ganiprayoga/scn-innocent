@@ -71,6 +71,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>TV Presentation</title>
+</svelte:head>
+
 {#if loaded}
 	<div class="body-path w-full h-screen max-h-screen overflow-clip bg-black-5">
 		<div class="absolute flex flex-col items-center w-full min-h-screen max-h-screen z-10">
