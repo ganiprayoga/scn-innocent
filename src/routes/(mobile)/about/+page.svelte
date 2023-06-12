@@ -43,6 +43,6 @@
 			Menjelajah sesuai perjalanan <ArrowRight class="h-4" />
 		</a>
 		<!-- <span class="caption-1">atau</span> -->
-		<button class="btn w-full border-primary text-primary border-2 subhead">Pilih Use Case</button>
+		<!-- <button class="btn w-full border-primary text-primary border-2 subhead">Pilih Use Case</button> -->
 	</div>
 </div>
