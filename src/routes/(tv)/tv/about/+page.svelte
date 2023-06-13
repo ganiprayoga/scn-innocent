@@ -61,7 +61,7 @@
 		</p>
 	</div>
 	<div class="fixed bottom-0 w-full">
-		<TvNavigation />
+		<!-- <TvNavigation /> -->
 	</div>
 </div>
 
