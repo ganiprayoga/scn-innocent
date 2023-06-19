@@ -16,9 +16,36 @@
 
 		// tl.from('#bg-circle-1', { scale: 10, duration: 0.618, ease: 'Power1.easeOut' });
 		// tl.from('#bg-circle-2', { x: '-200%', opacity: 0 }, '-=0.6');
+		tl.from('#apaSmartCity h1', {
+			opacity: 0,
+			x: '-10%',
+			duration: 0.618
+		});
+		tl.from('#apaSmartCity p', {
+			opacity: 0,
+			y: '-10%',
+			duration: 0.618
+		});
+
+		tl.from('#apaSCN h1', {
+			opacity: 0,
+			x: '-10%',
+			duration: 0.618
+		});
+		tl.from('#apaSCN p', {
+			opacity: 0,
+			x: '-10%',
+			duration: 0.618
+		});
+
+		tl.from('#moreInfo', {
+			opacity: 0,
+			x: '-10%',
+			duration: 0.618
+		});
 
 		tl.from('#scn-logo', { y: -100, opacity: 0 }, '<');
-		tl.from('#illustration', { scale: 1.5, opacity: 0, duration: 3, ease: 'Power1.easeIn' }, '<');
+		tl.from('#illustration', { scale: 1.5, opacity: 0, duration: 3, ease: 'Power1.easeIn' }, '0');
 
 		tl.play();
 	});

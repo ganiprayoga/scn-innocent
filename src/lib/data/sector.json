@@ -33,10 +33,17 @@
     "description": "Adopsi dari penerapan Smart City yang disesuaikan dengan kondisi, kebutuhan, dan permasalahan desa. Memanfaatkan digitalisasi untuk memperkuat kualitas hidup dan warga desa.",
     "produkTelkom": [
       {
-        "kategori": "eTicketing & Reservation",
+        "kategori": "Government, Economy, & Society",
         "produk": [
-          "tamaska-loket",
-          "tamaska-loket-desa"
+          "svn",
+          "simpeldesa"
+        ]
+      },
+      {
+        "kategori": "UMKM Desa & BUMDes",
+        "produk": [
+          "padiumkm",
+          "indibizpay"
         ]
       }
     ],

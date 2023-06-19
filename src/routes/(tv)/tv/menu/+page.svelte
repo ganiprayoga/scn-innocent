@@ -11,7 +11,7 @@
 
 	let menus = [
 		{ id: 1, title: 'Smart City Nusantara', url: '/tv/about' },
-		{ id: 2, title: 'City Sector', url: '/tv/city-sector' },
+		{ id: 2, title: 'City Sector', url: '/tv/sector' },
 		{ id: 3, title: 'Success Story', url: '/tv/success-story' }
 	];
 
