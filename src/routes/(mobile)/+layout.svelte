@@ -1,6 +1,8 @@
 <script lang="ts">
 	import '$lib/styles/app.scss';
 	import Favicon from '$lib/assets/sc-favicon.svg?url';
+
+	export let data;
 </script>
 
 <svelte:head>

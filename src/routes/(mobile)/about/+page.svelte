@@ -20,7 +20,7 @@
 		<div class="flex flex-col gap-4 px-4">
 			<div class="flex flex-row items-center gap-4">
 				<div class="bg-tertiary-40 p-2 rounded-md">
-					<span class="large-title font-bold">40+</span>
+					<a href="/pjs"><span class="large-title font-bold">40+</span></a>
 				</div>
 				<span class="font-semibold callout">Aplikasi terintegrasi dan terus bertumbuh</span>
 			</div>
