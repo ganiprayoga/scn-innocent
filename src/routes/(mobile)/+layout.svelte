@@ -13,3 +13,7 @@
 <div class="w-full md:max-w-[600px] mx-auto overflow-x-hidden">
 	<slot />
 </div>
+
+<pre>
+	{JSON.stringify(data, null, 4)}
+</pre>
