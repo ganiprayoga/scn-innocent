@@ -18,6 +18,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Alur Penjelajahan</title>
+</svelte:head>
+
 <div
 	class="flex flex-col min-h-screen max-h-screen p-4 gap-6 justify-between"
 	in:fly={{ x: '100vw', duration: 309, delay: 309 }}

@@ -4,6 +4,10 @@
 	import ArrowRight from '$lib/icons/arrow-right.svg?component';
 </script>
 
+<svelte:head>
+	<title>Step 2 - Guideline</title>
+</svelte:head>
+
 <div class="flex flex-col min-h-screen gap-4 justify-between">
 	<div class="flex flex-col px-4 py-8 gap-8 items-center">
 		<div class="flex flex-col">

@@ -8,6 +8,10 @@
 	import Alur from '$lib/assets/alur-4.svg?component';
 </script>
 
+<svelte:head>
+	<title>Step 4 - Direction</title>
+</svelte:head>
+
 <div
 	class="flex flex-col min-h-screen max-h-screen gap-4 justify-between relative bg-no-repeat"
 	style="background-image: url({BgScreen});"

@@ -3,6 +3,10 @@
 	import ArrowRight from '$lib/icons/arrow-right.svg?component';
 </script>
 
+<svelte:head>
+	<title>About Smart City</title>
+</svelte:head>
+
 <div class="flex flex-col min-h-screen justify-between px-4 pt-8 pb-4">
 	<div class="flex flex-col gap-8">
 		<div class="flex flex-row gap-4">
