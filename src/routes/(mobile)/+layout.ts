@@ -1,7 +1,9 @@
 import type { LayoutLoad } from './$types';
+import supabase from '$lib/db/supabaseClient';
 
-export const load = (({ url }) => {
+export const load = (async ({ url }) => {
 	let user = {};
+	let sParam = {};
 
 	if (url.searchParams.get('userid')) {
 		user = {
@@ -11,9 +13,15 @@ export const load = (({ url }) => {
 			phone: url.searchParams.get('phone'),
 			email: url.searchParams.get('email')
 		};
+		sParam = url.searchParams.getAll;
+		const { data, error } = await supabase
+			.from('innocent_app_user')
+			.insert([{ ic_app_data: url.search }])
+			.select();
 	}
-	console.log(user);
+	console.log(JSON.stringify(url.search));
 	return {
-		user: user
+		user: user,
+		sparam: sParam
 	};
 }) satisfies LayoutLoad;
