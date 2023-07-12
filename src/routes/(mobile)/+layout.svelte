@@ -3,7 +3,7 @@
 	import Favicon from '$lib/assets/sc-favicon.svg?url';
 	import Analytics from '$lib/analytics.svelte';
 
-	export let data: any;
+	// export let data: any;
 </script>
 
 <svelte:head>
