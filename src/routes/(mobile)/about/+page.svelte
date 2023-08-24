@@ -1,14 +1,15 @@
 <script lang="ts">
 	import SCNLogo from '$lib/assets/Smart City Nusantara - Primary.svg?component';
 	import ArrowRight from '$lib/icons/arrow-right.svg?component';
+	import CityIso from '$lib/assets/tv/city-isometric.svg?component';
 </script>
 
 <svelte:head>
 	<title>About Smart City</title>
 </svelte:head>
 
-<div class="flex flex-col min-h-screen justify-between px-4 pt-8 pb-4">
-	<div class="flex flex-col gap-8">
+<div class="flex flex-col min-h-screen justify-between">
+	<div class="flex flex-col gap-8 px-4 pt-8 pb-4">
 		<div class="flex flex-row gap-4">
 			<SCNLogo class="h-12 w-12" />
 			<div class="flex flex-col">
@@ -17,29 +18,13 @@
 			</div>
 		</div>
 		<p class="body leading-normal px-2">
-			Smart City Nusantara (SCN) merupakan bentuk dukungan PT Telkom untuk mentransformasi digital
-			di sektor Pemerintah Daerah dan mendorong percepatan pemanfaatan ICT demi terwujudnya Kota dan
-			Daerah yang lebih baik dalam berbagai aspek, khususnya pelayanan publik.
+			Bentuk dukungan PT Telkom dalam transformasi digital di sektor Pemerintah Daerah dan mendorong
+			percepatan pemanfaatan ICT demi terwujudnya Kota dan Daerah yang lebih baik dalam berbagai
+			aspek, khususnya <strong>pelayanan publik</strong>.
 		</p>
-		<div class="flex flex-col gap-4 px-4">
-			<div class="flex flex-row items-center gap-4">
-				<div class="bg-tertiary-40 p-2 rounded-md">
-					<a href="/pjs"><span class="large-title font-bold">40+</span></a>
-				</div>
-				<span class="font-semibold callout">Aplikasi terintegrasi dan terus bertumbuh</span>
-			</div>
-			<span class="text subhead text-black-80 self-center"
-				>untuk membantu pengambilan keputusan di</span
-			>
-			<div class="flex flex-row items-center gap-4">
-				<div class="bg-black-10 p-2 rounded-md">
-					<span class="large-title font-bold">60+</span>
-				</div>
-				<span class="font-semibold callout">Lembaga Pemerintahan <br /> yang menginisiasi</span>
-			</div>
-		</div>
+		<CityIso id="illustration" class=" h-[60vh] relative -top-[90px]" />
 	</div>
-	<div class="flex flex-col bottom-0 items-center gap-4 bg-white">
+	<div class="flex flex-col p-4 fixed w-full bottom-0 items-center gap-4 bg-white">
 		<a
 			href="/journey/map"
 			class="btn bg-primary text-white fill-white hover:text-white hover:bg-secondary w-full"

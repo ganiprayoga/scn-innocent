@@ -2,6 +2,11 @@
 	import SCNLogo from '$lib/assets/Smart City Nusantara - Primary.svg?component';
 	import TVGuide from '$lib/assets/TV-Guide 3.svg?component';
 	import ArrowRight from '$lib/icons/arrow-right.svg?component';
+
+	const closeWindow = () => {
+		window.open('', '_self');
+		window.close();
+	};
 </script>
 
 <svelte:head>
@@ -31,12 +36,12 @@
 			{#if false}
 				<button class="flex flex-row shrink p-2 rounded-md justify-center">Pilih Use Case</button>
 			{/if}
-			<a
-				href="/"
+			<button
+				on:click={closeWindow}
 				class="flex flex-row grow items-center justify-center gap-4 bg-primary text-white fill-white hover:text-white hover:bg-secondary w-full p-3 rounded-md"
 			>
 				Selesai <ArrowRight class="h-4" />
-			</a>
+			</button>
 		</div>
 	</div>
 </div>

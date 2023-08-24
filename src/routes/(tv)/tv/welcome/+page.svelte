@@ -16,7 +16,12 @@
 		let tl2 = gsap.timeline({ repeat: -1, yoyo: true });
 
 		tl.to('.home-button svg', { x: 8 });
-		tl2.to('#background', { height: '75vh', duration: 6.18, ease: 'Power1.easeInOut' });
+		tl2.to('#background', {
+			// height: '75vh',
+			y: 50,
+			duration: 6.18,
+			ease: 'Power1.easeInOut'
+		});
 	};
 
 	const redirectToMenu = () => {
@@ -24,8 +29,8 @@
 	};
 
 	const anRelease = () => {
-		testEvent = 'released';
-		console.log(testEvent);
+		// testEvent = 'released';
+		// console.log(testEvent);
 
 		let tl = gsap.timeline({
 			paused: true,
@@ -34,7 +39,7 @@
 		});
 
 		tl.to('.animate-from-top', { opacity: 0, y: -400 }, 0);
-		tl.to('#background', { opacity: 0, y: 160 }, 0);
+		tl.to('#background img', { opacity: 0, y: 160 }, 0);
 		tl.to(
 			['.home-button', '.home-button span', '.home-button svg'],
 			{ opacity: 0, width: '0' },
@@ -51,8 +56,8 @@
 
 		tlIn
 			.set('#background', { opacity: 0 })
-			// .set(['.home-button', '.home-button span'], { opacity: 0 })
-			.to('#background', { opacity: 1, height: '70vh', ease: 'Power2.easeOut' })
+			.set(['.home-button', '.home-button span'], { opacity: 0 })
+			.to('#background', { opacity: 1, ease: 'Power2.easeOut' })
 			.from('.animate-from-top', { opacity: 0, ease: 'Power2.easeOut' }, '-=62%')
 			.from(
 				'.home-button',
@@ -94,8 +99,8 @@
 				<Button text="Start" icon={ArrowRight} />
 			</div>
 		</div>
-		<div id="background" class="absolute bottom-0 max-w-screen overflow-hidden">
-			<img class="object-cover h-[80vh]" src="/bg-welcomeScreen.webp" alt="Background" />
+		<div id="background" class="absolute top-0 h-screen max-w-screen overflow-hidden">
+			<img class="object-cover h-screen" src="/bg-welcomeScreen.webp" alt="Background" />
 		</div>
 	</div>
 {/if}
