@@ -101,7 +101,7 @@
       {
         "kategori": "Career & Corporate Learning",
         "produk": [
-          "mydigilearn"
+          "myDigiLearn"
         ]
       },
       {
@@ -166,13 +166,25 @@
     "uri": "pad",
     "title": "Pendapatan Asli Daerah",
     "subtitle": "Peningkatan",
-    "description": "Digitalisasi untuk meningkatkan <strong>pengalaman wisatawan</strong>, keamanan, pemasaran, pengelolaan destinasi wisata secara efisien.",
+    "description": "Implementasi Smart City dalam <strong>meningkatkan PAD</strong>, meningkatkan cakupan atau ekstensifikasi dan intensifikasi penerimaan PAD.",
     "produkTelkom": [
+      {
+        "kategori": "Perpajakan",
+        "produk": [
+          "simpasa"
+        ]
+      },
       {
         "kategori": "eTicketing & Reservation",
         "produk": [
           "tamaska-loket",
           "tamaska-loket-desa"
+        ]
+      },
+      {
+        "kategori": "Potensi PAD",
+        "produk": [
+          "snip"
         ]
       }
     ],
@@ -188,7 +200,7 @@
     },
     "link": {
       "prevUri": "/tv/sector/kesehatan",
-      "nextUri": "/tv/success-story"
+      "nextUri": "/tv/menu"
     }
   }
 ]

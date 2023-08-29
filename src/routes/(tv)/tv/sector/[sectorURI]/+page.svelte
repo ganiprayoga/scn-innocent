@@ -121,7 +121,7 @@
 
 <SCNLogo id="scn-logo" class="absolute h-16 top-8 right-10" />
 
-<pre class="text-xs">
+<pre class="text-xs hidden">
   {JSON.stringify(data, null, 2)}
 </pre>
 

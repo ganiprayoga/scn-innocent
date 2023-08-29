@@ -29,9 +29,12 @@
 		</div>
 	</div>
 
-	<ol>
+	<ol class="flex flex-col gap-6">
 		{#each data.sector as sector}
-			<a href="/tv/sector/{sector.uri}">
+			<a
+				class="text-[32px] font-poppins text-black hover:text-primary hover:ml-2 transition-all"
+				href="/tv/sector/{sector.uri}"
+			>
 				{sector.title}
 			</a>
 		{/each}
