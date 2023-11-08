@@ -5,8 +5,27 @@
 
 	import SCNLogo from '$lib/assets/Smart City Nusantara - Primary.svg?component';
 	import CityIso from '$lib/assets/tv/city-isometric.svg?component';
+	import Button from '$lib/components/Button.svelte';
 
 	import TvNavigation from '$lib/components/TVNavigation.svelte';
+
+	const redirectTo = (uri: string) => {
+		console.log(uri);
+		// goto(uri, { invalidateAll: true });
+		goto('/tv/menu').then(() => {
+			goto(uri);
+		});
+	};
+
+	const clickPrev = () => {
+		console.log('clicked release');
+		redirectTo('/tv/menu');
+	};
+
+	const clickNext = () => {
+		console.log('clicked release');
+		redirectTo('/tv/sector');
+	};
 
 	onMount(() => {
 		let tl = gsap.timeline({
@@ -87,8 +106,16 @@
 			kebutuhan penduduknya.
 		</p>
 	</div>
+
 	<div class="fixed bottom-0 w-full">
-		<!-- <TvNavigation /> -->
+		<div class="flex flex-row justify-between w-full p-8" data-sveltekit-reload>
+			<div class="animate-button" on:mouseup={clickPrev}>
+				<Button text="Back to Menu" textSize={16} />
+			</div>
+			<div class="animate-button" on:mouseup={clickNext}>
+				<Button text="City Sector" textSize={16} />
+			</div>
+		</div>
 	</div>
 </div>
 

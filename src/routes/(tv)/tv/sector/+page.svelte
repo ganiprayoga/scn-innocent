@@ -3,8 +3,27 @@
 	import { goto } from '$app/navigation';
 
 	import SCNLogo from '$lib/assets/Smart City Nusantara - Primary.svg?component';
+	import Button from '$lib/components/Button.svelte';
 
 	export let data: PageData;
+
+	const redirectTo = (uri: string) => {
+		console.log(uri);
+		// goto(uri, { invalidateAll: true });
+		goto('/tv/menu').then(() => {
+			goto(uri);
+		});
+	};
+
+	const clickPrev = () => {
+		console.log('clicked release');
+		redirectTo('/tv/menu');
+	};
+
+	const clickNext = () => {
+		console.log('clicked release');
+		redirectTo('/tv/sector/pariwisata');
+	};
 </script>
 
 <div class="bg-blur absolute -z-10">
@@ -29,13 +48,27 @@
 		</div>
 	</div>
 
-	<ol>
+	<ol class="flex flex-col gap-6">
 		{#each data.sector as sector}
-			<a href="/tv/sector/{sector.uri}">
+			<a
+				class="text-[32px] font-poppins text-black hover:text-primary hover:ml-2 transition-all"
+				href="/tv/sector/{sector.uri}"
+			>
 				{sector.title}
 			</a>
 		{/each}
 	</ol>
+</div>
+
+<div class="fixed bottom-0 w-full">
+	<div class="flex flex-row justify-between w-full p-8" data-sveltekit-reload>
+		<div class="animate-button" on:mouseup={clickPrev}>
+			<Button text="Back to Menu" textSize={16} />
+		</div>
+		<div class="animate-button" on:mouseup={clickNext}>
+			<Button text="Sektor Pariwisata" textSize={16} />
+		</div>
+	</div>
 </div>
 
 <SCNLogo id="scn-logo" class="absolute h-16 top-8 right-10" />
