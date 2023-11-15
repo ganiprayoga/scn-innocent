@@ -120,9 +120,3 @@
 </div>
 
 <SCNLogo id="scn-logo" class="absolute h-16 top-8 right-10" />
-
-<style>
-	.clipped {
-		clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-	}
-</style>

@@ -76,7 +76,9 @@
 				</div>
 				<p class="font-poppins text-lg">{@html data.sector.description}</p>
 			</div>
-			<img src={libURL} alt={`Illustrasi ${data.sector.title}`} class="w-2/3 relative -mt-32" />
+			<div class="h-[40vh] relative -mt-32">
+				<img src={libURL} alt={`Illustrasi ${data.sector.title}`} class="h-full" />
+			</div>
 		</div>
 		<div class="flex flex-row gap-4 items-center grow">
 			<div class="flex flex-col -gap-4">
@@ -109,7 +111,7 @@
 					<Button text="Previous" textSize={16} />
 				</div>
 				<div class="animate-button" on:mouseup={clickMenu}>
-					<Button text="MENU" textSize={16} />
+					<Button text="City Sectors" textSize={16} />
 				</div>
 				<div class="animate-button" on:mouseup={clickNext}>
 					<Button text="Next" textSize={16} />
