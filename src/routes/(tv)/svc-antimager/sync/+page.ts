@@ -2,11 +2,12 @@ import type { PageLoad } from './$types';
 import axios from 'axios';
 import supabase from '$lib/db/supabaseClient';
 
-export const load = (({ params }) => {
+export const load = (({ params, url }) => {
+	let stravaToken: string | null = url.searchParams.get('token');
 	let stravaClub: any = [];
 	let supabaseStrava: any = [];
 
-	stravaClub = getClubActivity();
+	stravaClub = getClubActivity(stravaToken);
 	supabaseStrava = getSupabaseStrava();
 
 	return {
@@ -15,10 +16,10 @@ export const load = (({ params }) => {
 	};
 }) satisfies PageLoad;
 
-const getClubActivity = async () => {
+const getClubActivity = async (token: string | null) => {
 	let retVal: any = {};
 	let stravaURL: string = 'https://www.strava.com/api/v3/clubs/1187707/activities';
-	let accessToken: string = 'fc697e03e4186fde3d8f6c6bb0b043449a998bec';
+	let accessToken: string | null = token;
 	try {
 		const res = await axios.get(stravaURL, {
 			headers: {

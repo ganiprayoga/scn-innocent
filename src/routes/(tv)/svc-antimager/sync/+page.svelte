@@ -6,8 +6,12 @@
 	let isSyncing: boolean = false;
 
 	const syncData = async (act: any) => {
-		console.log(act);
+		console.log({ act: act });
 		const { data, error } = await supabase.from('svc_strv').upsert(act).select();
+		console.log({
+			data: data,
+			error: error
+		});
 		return { data: data, error: error };
 	};
 
@@ -53,7 +57,7 @@
 								activity.moving_time +
 								activity.elapsed_time +
 								activity.total_elevation_gain,
-							fullname: activity.athlete.firstname + ' ' + activity.athlete.lastname,
+							fullName: activity.athlete.firstname + ' ' + activity.athlete.lastname,
 							name: activity.name,
 							distance: activity.distance,
 							moving_time: activity.moving_time,
