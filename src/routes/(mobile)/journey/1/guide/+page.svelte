@@ -17,7 +17,7 @@
 		<div class="TV w-full">
 			<TVGuide />
 		</div>
-		<p>Silakan menyaksikan tayangan mengenai konsep Smart City Nusantara.</p>
+		<p>Silakan berinteraksi dengan layar untuk menjelajahi konsep Smart City Nusantara.</p>
 	</div>
 	<div class="flex flex-col bottom-0 items-center gap-4 p-8 bg-white">
 		<span class="title-3 font-bold">Selesai di Smart TV No. 1</span>
